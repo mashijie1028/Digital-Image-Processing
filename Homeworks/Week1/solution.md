@@ -116,4 +116,3 @@ end
 > 1. https://github.com/MITComputationalCamera/LightFields
 > 2. https://en.wikipedia.org/wiki/Light_field
 > 3. https://en.wikipedia.org/wiki/Light-field_camera
-
