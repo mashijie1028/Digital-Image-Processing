@@ -1,0 +1,17 @@
+I = imread('lena.bmp');
+%I = im2double(I);
+[m,n] = size(I);
+m_h = 5;
+n_h = 5;
+f = zeros(5,5);
+
+for i=1:5
+    for j=1:5
+        f(i,j) = exp(sqrt((i-3)^2+(j-3)^2)/240);
+    end
+end
+% f = f/sum(sum(f));
+f(1:)
+
+J = imfilter(I,f,'conv','full');
+imshow(J);
